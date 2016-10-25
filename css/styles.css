@@ -1,0 +1,16 @@
+#warning-responses{
+  display: none;
+}
+
+#health-responses{
+  display: none;
+}
+
+#treatment-responses{
+  display: none;
+}
+#response{
+  margin-top: 2em;
+  color:green;
+  font-weight: bold;
+}

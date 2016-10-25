@@ -15,33 +15,50 @@
       <form id="stress-survey">
         <div class="form-group">
           <p>In the past year, I have had the following stress signs:</p>
-          <input type="checkbox" name="warning-signs" value="bike">Lack of sleep.<br>
-          <input type="checkbox" name="warning-signs" value="car">Feeling overwhelmed.<br>
-          <input type="checkbox" name="warning-signs" value="carpool">Quick to anger.<br>
-          <input type="checkbox" name="warning-signs" value="walk">Panic attacks.<br>
-          <input type="checkbox" name="warning-signs" value="bus">Can't seem to relax.<br>
-          <input type="checkbox" name="warning-signs" value="train">Rarely happy.<br>
+          <input type="checkbox" name="warning-signs" value="Lack of Sleep">Lack of sleep.<br>
+          <input type="checkbox" name="warning-signs" value="Feeling overwhelmed">Feeling overwhelmed.<br>
+          <input type="checkbox" name="warning-signs" value="Quick to anger">Quick to anger.<br>
+          <input type="checkbox" name="warning-signs" value="Panic attacks">Panic attacks.<br>
+          <input type="checkbox" name="warning-signs" value="Can't relax">Can't seem to relax.<br>
+          <input type="checkbox" name="warning-signs" value="Rarely happy">Rarely happy.<br>
         </div>
         <div class="form-group">
           <p>In the past year, I have had the following health signs:</p>
-          <input type="checkbox" name="health-signs" value="bike"> High blood pressure.<br>
-          <input type="checkbox" name="health-signs" value="car">Hair loss.<br>
-          <input type="checkbox" name="health-signs" value="carpool">Anxiety.<br>
-          <input type="checkbox" name="health-signs" value="walk">Depression.<br>
-          <input type="checkbox" name="health-signs" value="bus">IBS.<br>
-          <input type="checkbox" name="health-signs" value="train">Blurry vision.<br>
+          <input type="checkbox" name="health-signs" value="High blood pressure">High blood pressure.<br>
+          <input type="checkbox" name="health-signs" value="Hair loss">Hair loss.<br>
+          <input type="checkbox" name="health-signs" value="Anxiety">Anxiety.<br>
+          <input type="checkbox" name="health-signs" value="Depression">Depression.<br>
+          <input type="checkbox" name="health-signs" value="ISB">IBS.<br>
+          <input type="checkbox" name="health-signs" value="Blurry vision">Blurry vision.<br>
         </div>
         <div class="form-group">
           <p>In the past year, I have done the following treatments:</p>
-          <input type="checkbox" name="treatment" value="bike">Meditate.<br>
-          <input type="checkbox" name="treatment" value="car">Yoga.<br>
-          <input type="checkbox" name="treatment" value="carpool">Manage my time.<br>
-          <input type="checkbox" name="treatment" value="walk">Pet a cat or dog.<br>
-          <input type="checkbox" name="treatment" value="bus">Go out with friends.<br>
-          <input type="checkbox" name="treatment" value="train">Take a vacation.<br>
+          <input type="checkbox" name="treatment" value="Meditate">Meditate.<br>
+          <input type="checkbox" name="treatment" value="Yoga">Yoga.<br>
+          <input type="checkbox" name="treatment" value="Manage my time">Manage my time.<br>
+          <input type="checkbox" name="treatment" value="Pet a cat or dog">Pet a cat or dog.<br>
+          <input type="checkbox" name="treatment" value="Go out with friends">Go out with friends.<br>
+          <input type="checkbox" name="treatment" value="Take a vacation">Take a vacation.<br>
         </div>
        <button type="submit">Submit Survey</button>
       </form>
+      <span id="warning-responses">
+        <p><b>You have the following warning signs:</b></p>
+      </span>
+      <br>
+      <span id="health-responses">
+        <p><b>You have the following health signs:</b></p>
+      </span>
+      <br>
+      <span id="treatment-responses">
+        <p><b>You used the following treatments:</b></p>
+      </span>
+
+        <div id="response">
+
+        </div>
+
     </div>
+
   </body>
 </html>
